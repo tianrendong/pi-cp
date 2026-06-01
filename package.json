@@ -1,0 +1,13 @@
+{
+  "name": "pi-cp",
+  "version": "0.1.0",
+  "description": "Slack-ready rich clipboard commands for pi assistant responses",
+  "keywords": ["pi-package"],
+  "type": "module",
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
