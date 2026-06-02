@@ -9,6 +9,10 @@
     "type": "git",
     "url": "git+https://github.com/tianrendong/pi-cp.git"
   },
+  "bugs": {
+    "url": "https://github.com/tianrendong/pi-cp/issues"
+  },
+  "homepage": "https://github.com/tianrendong/pi-cp#readme",
   "type": "module",
   "pi": {
     "extensions": ["./extensions"]
