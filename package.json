@@ -1,6 +1,6 @@
 {
   "name": "pi-cp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Slack-ready rich clipboard commands for pi assistant responses",
   "keywords": [
     "pi-package"

@@ -374,8 +374,10 @@ function renderMarkdown(markdown: string): string {
       continue;
     }
 
-    // Blank line
+    // Preserve blank source lines. Rich-text paste targets such as Slack ignore
+    // whitespace between HTML blocks, so emit an explicit break.
     if (line.trim() === "") {
+      blocks.push("<br>");
       i += 1;
       continue;
     }
